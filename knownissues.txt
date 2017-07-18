@@ -1,0 +1,17 @@
+Known Issues
+------------
+- occasional invalid http requests for foo.xml instead of foo.mov
+  (could this be the pano.swf player? how to tell it to stop?)
+- can't use more than one instance on a page, since a unique id is
+  use to place the Flash embed code
+- shortcodes not removed from the_excerpt(), this is due in part to the
+  shortcode API design, it does not run do_shortcodes() on the_excerpt.
+  Workaround: place panos in blog posts AFTER a more tag
+
+
+Future Enhancements and Features
+--------------------------------
+
+- integrate with www.krpano.com
+- use with flat JPG files ?
+- permit web owner to turn autorotation on or off

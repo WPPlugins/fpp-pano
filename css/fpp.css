@@ -1,0 +1,36 @@
+
+.vrbox {
+	width: auto; /* 550px */
+	margin-top: 5px;
+	background: black;
+	color: white;
+}
+.vrcaption {
+	font-size: smaller;
+	text-align: center;
+}
+.vrwindow {
+	height: 350px;
+	border: 2px solid black;
+}
+.vrwindow p {
+	color: white;
+}
+.vrchoice {
+	color: grey;
+	height: 2em;
+	margin: 0px;
+	display: inline;
+	padding: 1px;
+	padding-right: 2em;
+	padding-left: 5px;
+	text-decoration: none;
+}
+.vrchoice:hover {
+	color: #ff9;
+	text-decoration: none;
+}
+.current-pano {
+	color: white;
+}
+
